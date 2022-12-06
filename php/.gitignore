@@ -1,0 +1,5 @@
+# sql file
+/SQL/*
+
+# front-end folder
+/public
