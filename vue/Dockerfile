@@ -16,12 +16,8 @@ RUN service ssh restart
 
 EXPOSE 22
 
-# Git
-RUN apt-get install -y git
-
 # Vim
 RUN apt-get install -y vim
-
 RUN apt-get install -y tree
 
 # set password, {username}:{password}
