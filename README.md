@@ -52,7 +52,27 @@ docker-compose up -d
 
 ## Setting
 
+In the docker-compose.yml file we need to setting the config for the multi-container.
 
+```
+services: 
+    container name:
+        build: folder where the Dockerfile from
+        ports:
+            - host port : container port
+        volumes:
+            - local path : container path
+```
+
+Dockerfile sets which image we build the container and initialize command.
+
+```
+# Image
+FROM image : tag
+
+# Initialize like
+RUN apt-get update
+```
 
 ## Future work
 
