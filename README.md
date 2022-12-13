@@ -76,4 +76,7 @@ RUN apt-get update
 
 ## Future work
 
+* Add the DB container.
+* Find some interesting packages to include it.
+
 ## References
