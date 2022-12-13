@@ -10,19 +10,19 @@ The server uses Nginx and builds them on the Docker.
 
 | Location                 |  Content                                   |
 |--------------------------|--------------------------------------------|
-| `/nginx`                 | Nginx server & Nginx config.               |
-| `/nginx/log`             | Nginx action log.                          |
-| `/php`                   | PHP project & PHP config.                  |
+| `/nginx/`                | Nginx server & Nginx config.               |
+| `/nginx/log/`            | Nginx action log.                          |
+| `/php/`                  | PHP project & PHP config.                  |
 | `/php/index.php`         | RESTful API entry points.                  |
-| `/php/Controller/Api`    | RESTful API with PHP.                      |
-| `/php/inc`               | PHP config & DB config.                    |
-| `/php/Model`             | Access Database action & SQL select.       |
-| `/php/public`            | Build from Vue in static assets.           |
-| `/php/SQL`               | DB SQL.                                    |
-| `/vue/src`               | Vue App.                                   |
+| `/php/Controller/Api/`   | RESTful API with PHP.                      |
+| `/php/inc/`              | PHP config & DB config.                    |
+| `/php/Model/`            | Access Database action & SQL select.       |
+| `/php/public/`           | Build from Vue in static assets.           |
+| `/php/SQL/`              | DB SQL.                                    |
+| `/vue/src/`              | Vue App.                                   |
 | `/vue/src/main.js`       | JS application entry point.                |
 | `/vue/public/index.html` | Html application entry point.              |
-| `/vue/public/static`     | Static assets.                             |
+| `/vue/public/static/`    | Static assets.                             |
 | `/vue/dist/`             | Bundled Assets Output (generated at `yarn build`) |
 
 ## Include
